@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Glass Todo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg b1"></div><div class="bg b2"></div><div class="bg b3"></div>
+
+<div class="container glass">
+<h1> Employee Task Manager</h1>
+<button id="Add">+ Add Task</button>
+
+<div id="mdiv" class="glass">
+<input id="inp_1" placeholder="Serial No">
+<input id="inp_2" placeholder="Employee">
+<input id="inp_3" placeholder="Task 1">
+<input id="inp_4" placeholder="Task 2">
+<button id="AddTask">Save Task</button>
+</div>
+
+<div id="Tasks"></div>
+</div>
+
+<div id="successPopup">
+<div class="popup glass">
+<div class="tick">✔</div>
+<h2>Task Saved</h2>
+<p>Your task was updated successfully.</p>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
